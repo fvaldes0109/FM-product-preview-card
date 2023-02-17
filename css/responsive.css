@@ -1,0 +1,27 @@
+@media (max-width: 640px) {
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card .product-photo {
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+    }
+
+    .side {
+        padding: 10px 20px;
+    }
+
+    button {
+        margin: 10px 0 0;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .side h1 {
+        font-size: 32px;
+    }
+}

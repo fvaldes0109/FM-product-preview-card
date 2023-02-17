@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/styles.css">
-
+  <link rel="stylesheet" href="./css/responsive.css">
   
   <title>Frontend Mentor | Product preview card component</title>
 
@@ -19,9 +19,10 @@
 
   <main>
     <div class="card">
-      <div class="picture">
+      <picture class>
+        <source media="(max-width:640px)" srcset="./images/image-product-mobile.jpg">
         <img class="product-photo" src="./images/image-product-desktop.jpg" alt="Perfume photo">
-      </div>
+      </picture>
       <div class="side">
         <p class="perfume-text">PERFUME</p>
         <h1>Gabrielle Essence Eau De Parfum</h1>

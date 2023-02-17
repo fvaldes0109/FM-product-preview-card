@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+
   
   <title>Frontend Mentor | Product preview card component</title>
 
@@ -18,7 +20,7 @@
   <main>
     <div class="card">
       <div class="picture">
-        <img src="./images/image-product-desktop.jpg" alt="Perfume photo">
+        <img class="product-photo" src="./images/image-product-desktop.jpg" alt="Perfume photo">
       </div>
       <div class="side">
         <p class="perfume-text">PERFUME</p>
@@ -30,7 +32,12 @@
           <span class="current">$149.99</span>
           <span class="old">$169.99</span>
         </div>
-        <button>Add to Cart</button>
+        <button>
+          <div class="text">
+            <img src="./images/icon-cart.svg" aria-hidden="true">
+            <span>Add to Cart</span>
+          </div>
+        </button>
       </div>
     </div>
   </main>
